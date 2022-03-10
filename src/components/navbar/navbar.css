@@ -6,12 +6,15 @@
   justify-content: space-around;
   align-items: center;
   box-shadow: 0px 3px 6px #00000029;
+  position: relative;
+  z-index: 10;
 }
 .navbar ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
   width: 300px;
+  color: #cbd0d3;
 }
 .navbar img {
   height: 17px;
