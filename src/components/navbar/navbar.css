@@ -8,6 +8,8 @@
   box-shadow: 0px 3px 6px #00000029;
   position: relative;
   z-index: 10;
+  background-color: #fff;
+  position: fixed;
 }
 .navbar ul {
   list-style: none;
@@ -18,4 +20,7 @@
 }
 .navbar img {
   height: 17px;
+}
+.active {
+  color: #2a3037;
 }

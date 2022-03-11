@@ -1,0 +1,14 @@
+.tendencias {
+  padding: 80px 130px;
+  height: 730px;
+}
+.tendencias h2 {
+  margin-bottom: 35px;
+  color: #2a3037;
+  font-size: 24px;
+}
+.tendencias > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

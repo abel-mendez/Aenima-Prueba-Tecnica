@@ -5,7 +5,7 @@ import page from "../../assets/iconos/nav_slider.svg";
 import arrow from "../../assets/iconos/arrow.png";
 export const Home = () => {
   return (
-    <main className="home">
+    <main id="home" className="home">
       <div className="section1">
         <div>
           <h1>
