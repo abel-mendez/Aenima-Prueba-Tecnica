@@ -21,7 +21,7 @@ export const Home = () => {
       </div>
       <div className="section2">
         <div>
-          <img src={page} />
+          <img src={page} className="page" />
           <div className="container">
             <h4>
               PRÓXIMA AVENTURA <img src={arrow} />

@@ -73,3 +73,39 @@
 .home h1 {
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .section2 .container {
+    display: none;
+  }
+  .section1 div p {
+    display: none;
+  }
+  .home .section1 h1 {
+    font-size: 24px;
+  }
+  .home .section1 div h3 {
+    font-size: 20px;
+  }
+  .home {
+    position: relative;
+  }
+  .page {
+    position: absolute;
+    bottom: 30px;
+  }
+  .home .section1 {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+/* @media screen and (max-width: 900px) {
+  .section1 div {
+    font-size: 10px;
+  }
+  .section1 div h3 {
+    font-size: 10px;
+  }
+} */

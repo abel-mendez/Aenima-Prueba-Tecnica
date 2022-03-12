@@ -4,9 +4,9 @@ import { Tendencia } from "./Tendencia";
 import "./tendencias.css";
 export const Tendencias = () => {
   return (
-    <div className="tendencias" id="tendencias">
+    <section className="tendencias">
       <h2>TENDENCIAS</h2>
-      <div>
+      <div id="tendencias">
         {tendencias.map(({ id, img, titulo, descripcion, nuevo }) => (
           <Tendencia
             key={id}
@@ -17,6 +17,6 @@ export const Tendencias = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };

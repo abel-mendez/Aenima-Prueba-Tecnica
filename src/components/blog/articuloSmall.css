@@ -1,0 +1,32 @@
+.articulo-small {
+  width: 352px;
+  height: 272px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  margin-left: 16px;
+}
+.articulo-small + img {
+  width: 352px;
+  height: 272px;
+}
+.descripcion-small {
+  height: 62px;
+}
+.descripcion-small h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.descripcion-small .time {
+  font-size: 13px;
+  display: flex;
+  color: #cbd0d3;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.descripcion-small .time img {
+  margin-right: 7px;
+  height: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

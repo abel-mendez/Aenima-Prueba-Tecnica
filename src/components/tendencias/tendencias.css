@@ -1,6 +1,8 @@
 .tendencias {
   padding: 80px 130px;
-  height: 730px;
+  height: 760px;
+  background: #ebebeb;
+  box-sizing: border-box;
 }
 .tendencias h2 {
   margin-bottom: 35px;
@@ -11,4 +13,9 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 990px) {
+  .tendencias {
+    padding: 50px;
+  }
 }
