@@ -1,18 +1,22 @@
-import React, { useState } from "react";
-import viajes from "../../assets/logo/logo_01.png";
-import "./navbar.css";
+import React from "react";
+import "./menu.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Menu } from "./Menu";
-export const Navbar = () => {
-  const [show, setShow] = useState(true);
+export const Menu = ({ show, setShow }) => {
   return (
-    <>
-      <Menu show={show} setShow={setShow} />
-      <div className="navbar">
-        <img src={viajes} />
+    <div hidden={show} className="menu-hamburguesa">
+      <div>
+        <img
+          onClick={() => {
+            setShow((e) => !e);
+          }}
+          src="https://img.icons8.com/ios/50/000000/delete-sign--v1.png"
+        />
         <ul>
           <li>
             <Link
+              onClick={() => {
+                setShow((e) => !e);
+              }}
               activeClass="active"
               to="home"
               spy={true}
@@ -25,6 +29,9 @@ export const Navbar = () => {
           </li>
           <li>
             <Link
+              onClick={() => {
+                setShow((e) => !e);
+              }}
               activeClass="active"
               to="tendencias"
               spy={true}
@@ -37,6 +44,9 @@ export const Navbar = () => {
           </li>
           <li>
             <Link
+              onClick={() => {
+                setShow((e) => !e);
+              }}
               activeClass="active"
               to="blog"
               spy={true}
@@ -48,14 +58,7 @@ export const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <img
-          onClick={() => {
-            setShow((e) => !e);
-          }}
-          className="menu"
-          src="https://img.icons8.com/android/24/000000/menu.png"
-        />
       </div>
-    </>
+    </div>
   );
 };
