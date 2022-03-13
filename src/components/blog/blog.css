@@ -1,8 +1,9 @@
 .blog {
-  padding: 139px;
   box-sizing: border-box;
   height: 870px;
   width: 100%;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 .blog .articulos {
@@ -18,36 +19,5 @@
 @media screen and (max-width: 1245px) {
   .articulos-small {
     display: none;
-  }
-  .blog {
-    padding: 220px;
-  }
-}
-@media screen and (max-width: 990px) {
-  .blog {
-    padding: 70px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .blog {
-    padding: 200px;
-  }
-}
-@media screen and (max-width: 650px) {
-  .blog {
-    padding: 80px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .blog {
-    padding: 10px;
-  }
-}
-@media screen and (max-width: 370px) {
-  .blog {
-    padding: 0px;
-  }
-  .blog h2 {
-    margin-left: 37px;
   }
 }
