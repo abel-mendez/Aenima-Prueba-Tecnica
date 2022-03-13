@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.55f43a21.css",
-    "main.js": "./static/js/main.b0f81955.js",
-    "/static/js/787.31ba68ac.chunk.js": "./static/js/787.31ba68ac.chunk.js",
-    "/static/media/articulo_big_02.png": "./static/media/articulo_big_02.e257ecbc240af1f8707e.png",
-    "/static/media/Viajes_Hero.jpg": "./static/media/Viajes_Hero.c5fc035c34c9c2482866.jpg",
-    "/static/media/articulo_big_01.png": "./static/media/articulo_big_01.9e74b7605374fa04f10d.png",
-    "/static/media/articulo_small_02.png": "./static/media/articulo_small_02.acf2e47b107305c8d1aa.png",
-    "/static/media/articulo_small_03.png": "./static/media/articulo_small_03.9722221b57a7611e4362.png",
-    "/static/media/card_01.png": "./static/media/card_01.c538d7cfd63198101ae9.png",
-    "/static/media/card_02.png": "./static/media/card_02.c80124bdb3fa072c37b9.png",
-    "/static/media/card_03.png": "./static/media/card_03.1c2721e2472e67eaae69.png",
-    "/static/media/articulo_small_01.png": "./static/media/articulo_small_01.21d1b4a7ed44896568d7.png",
-    "index.html": "./index.html",
-    "/static/media/nav_slider.svg": "./static/media/nav_slider.bd0a2a7c1aca8f90797a8295e136b4e4.svg",
-    "main.55f43a21.css.map": "./static/css/main.55f43a21.css.map",
-    "main.b0f81955.js.map": "./static/js/main.b0f81955.js.map",
-    "787.31ba68ac.chunk.js.map": "./static/js/787.31ba68ac.chunk.js.map"
+    "main.css": "/Aenima-Prueba-Tecnica/static/css/main.542c30c3.css",
+    "main.js": "/Aenima-Prueba-Tecnica/static/js/main.8d6986cb.js",
+    "static/js/787.31ba68ac.chunk.js": "/Aenima-Prueba-Tecnica/static/js/787.31ba68ac.chunk.js",
+    "static/media/articulo_big_02.png": "/Aenima-Prueba-Tecnica/static/media/articulo_big_02.e257ecbc240af1f8707e.png",
+    "static/media/Viajes_Hero.jpg": "/Aenima-Prueba-Tecnica/static/media/Viajes_Hero.c5fc035c34c9c2482866.jpg",
+    "static/media/articulo_big_01.png": "/Aenima-Prueba-Tecnica/static/media/articulo_big_01.9e74b7605374fa04f10d.png",
+    "static/media/articulo_small_02.png": "/Aenima-Prueba-Tecnica/static/media/articulo_small_02.acf2e47b107305c8d1aa.png",
+    "static/media/articulo_small_03.png": "/Aenima-Prueba-Tecnica/static/media/articulo_small_03.9722221b57a7611e4362.png",
+    "static/media/card_01.png": "/Aenima-Prueba-Tecnica/static/media/card_01.c538d7cfd63198101ae9.png",
+    "static/media/card_02.png": "/Aenima-Prueba-Tecnica/static/media/card_02.c80124bdb3fa072c37b9.png",
+    "static/media/card_03.png": "/Aenima-Prueba-Tecnica/static/media/card_03.1c2721e2472e67eaae69.png",
+    "static/media/articulo_small_01.png": "/Aenima-Prueba-Tecnica/static/media/articulo_small_01.21d1b4a7ed44896568d7.png",
+    "index.html": "/Aenima-Prueba-Tecnica/index.html",
+    "static/media/nav_slider.svg": "/Aenima-Prueba-Tecnica/static/media/nav_slider.bd0a2a7c1aca8f90797a8295e136b4e4.svg",
+    "main.542c30c3.css.map": "/Aenima-Prueba-Tecnica/static/css/main.542c30c3.css.map",
+    "main.8d6986cb.js.map": "/Aenima-Prueba-Tecnica/static/js/main.8d6986cb.js.map",
+    "787.31ba68ac.chunk.js.map": "/Aenima-Prueba-Tecnica/static/js/787.31ba68ac.chunk.js.map"
   },
   "entrypoints": [
-    "./static/css/main.55f43a21.css",
-    "./static/js/main.b0f81955.js"
+    "static/css/main.542c30c3.css",
+    "static/js/main.8d6986cb.js"
   ]
 }
