@@ -11,3 +11,8 @@
   height: 16px;
   margin-right: 20px;
 }
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 0px 38px;
+  }
+}

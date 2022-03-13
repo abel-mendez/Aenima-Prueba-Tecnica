@@ -44,6 +44,10 @@ export const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <img
+        className="menu"
+        src="https://img.icons8.com/android/24/000000/menu.png"
+      />
     </div>
   );
 };

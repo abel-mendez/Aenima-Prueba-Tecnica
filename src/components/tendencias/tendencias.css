@@ -19,3 +19,8 @@
     padding: 50px;
   }
 }
+@media screen and (max-width: 500px) {
+  .tendencias {
+    padding: 37px;
+  }
+}

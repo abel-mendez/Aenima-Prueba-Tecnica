@@ -24,3 +24,21 @@
 .active {
   color: #2a3037;
 }
+.menu {
+  width: 24px;
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .navbar {
+    justify-content: space-between;
+    padding: 0px 37px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
