@@ -5,6 +5,9 @@
   margin-bottom: 40px;
   margin-left: 16px;
 }
+.articulo-small:hover {
+  cursor: pointer;
+}
 .articulo-small + img {
   width: 352px;
   height: 272px;

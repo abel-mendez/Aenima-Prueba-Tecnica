@@ -29,3 +29,7 @@
   color: #2a3037;
   font-weight: bold;
 }
+.menu-hamburguesa li:hover,
+.menu-hamburguesa img:hover {
+  cursor: pointer;
+}

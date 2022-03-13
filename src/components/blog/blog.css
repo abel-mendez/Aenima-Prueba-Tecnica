@@ -19,13 +19,26 @@
   .articulos-small {
     display: none;
   }
+  .blog {
+    padding: 220px;
+  }
 }
 @media screen and (max-width: 990px) {
   .blog {
-    padding: 50px;
+    padding: 70px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 800px) {
+  .blog {
+    padding: 200px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .blog {
+    padding: 80px;
+  }
+}
+@media screen and (max-width: 450px) {
   .blog {
     padding: 10px;
   }

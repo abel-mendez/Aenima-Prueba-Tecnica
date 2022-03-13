@@ -6,6 +6,9 @@
   box-sizing: border-box;
   margin-bottom: 15px;
 }
+.card:hover {
+  cursor: pointer;
+}
 .card img {
   width: 352px;
   border-radius: 6px 6px 0px 0px;

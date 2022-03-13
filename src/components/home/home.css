@@ -36,6 +36,9 @@
 .home .section2 {
   height: 40%;
 }
+.section2 h4:hover {
+  cursor: pointer;
+}
 .section2 div {
   justify-content: space-between;
   align-items: flex-end;

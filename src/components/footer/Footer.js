@@ -8,8 +8,12 @@ export const Footer = () => {
     <footer className="footer">
       <img src={viaje} />
       <div>
-        <img src={instagram} />
-        <img src={facebook} />
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src={instagram} />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src={facebook} />
+        </a>
       </div>
     </footer>
   );
